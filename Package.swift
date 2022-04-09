@@ -23,5 +23,6 @@ let package = Package(
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
             ]
         ),
+        .testTarget(name: "XcresultIssuesTests", dependencies: ["XcresultIssues"])
     ]
 )
